@@ -77,7 +77,7 @@ Tap anything to drill in.
 
 Off by default. Two independent toggles in Settings → Apple Health:
 
-**Publish nutrients to Health.** When on, every meal you save also writes a nutrition entry to Apple Health, grouped under "Daily Ration" as a meal correlation. Edits and deletes propagate. To stop sharing later, open the Health app → Sharing → Apps and Services → Daily Ration.
+**Publish nutrients to Health.** When on, every meal you save also writes a nutrition entry to Apple Health, grouped under "DailyRation" as a meal correlation. Edits and deletes propagate. To stop sharing later, open the Health app → Sharing → Apps and Services → DailyRation.
 
 **Show active calories.** When on, the calorie display reads your active energy burned from Health and renders a green ring inside the orange calorie ring, scaled to the same target.
 
