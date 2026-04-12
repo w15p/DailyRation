@@ -64,7 +64,7 @@ The chart header packs a lot into a small space. Here's the cheat sheet:
 - **Big donut** on the left: today's macros (protein, carbs, fat). Tap a wedge for that nutrient's trend.
 - **Calorie ring** in the middle of the donut: how close you are to your calorie target. Past target it shifts toward red.
 - **Inner green ring** (only if you've enabled Apple Health active calories): how much you've burned today, scaled against the same calorie target so the two are directly comparable.
-- **Limit bars** on the right (Sodium / Saturated Fat / Sugar): horizontal bars that go from green to amber to red as you approach your daily limit. You only see the ones you've enabled in Settings.
+- **Limit bars** on the right (Sodium / Saturated Fat / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach your daily limit. You only see the ones you've enabled in Settings.
 - **Micro rings** below (Iron / Calcium / Magnesium / Potassium / Fiber): small rings that fill toward your daily target. Each one can be toggled on or off independently in Settings.
 
 Tap anything to drill in.
