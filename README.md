@@ -4,15 +4,17 @@ A nutrition tracker for people who cook and don't want or need another account o
 
 If you make most of your food from real ingredients and you've spent ten minutes inside a mainstream nutrition app wondering where the recipe button is, this is for you. The Daily Ration treats recipes as the main thing — not a premium upsell — and gets out of your way.
 
-> _SCREENSHOT: top-of-page shot — Log tab on iPhone, chart header with rings + a couple of meal cards below._
+![Barcode scanner](docs/distribution/screenshots/barcode_scanner.jpeg)
 
 ---
 
 ## What it does
 
-- **Scan a barcode, scan a label.** Point your camera at a barcode or a nutrition label and the app reads it into a new ingredient.
 - **Over 350 ingredients on day one.** Eggs, olive oil, chicken thighs, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
+- **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
+- **Scan a nutrition label.** No barcode? Photograph the nutrition facts panel and the app reads it.
 - **Search 400,000+ foods.** Need something niche? The full USDA FoodData Central database is a tap away.
+- **Enter it yourself.** For anything else, add an ingredient manually with your own nutrition data.
 - **Cook a recipe once, log it forever.** Build a recipe out of ingredients, and every time you eat it, log it as one tap.
 - **See your day at a glance.** Calories, protein, carbs, fat, plus the micronutrients you actually care about — all on one screen.
 - **Trends across days and weeks.** Tap any nutrient on the day view to see a 7-day chart with your target line.
@@ -32,7 +34,7 @@ Your day. The top of the screen is a chart header showing macros, calories vs. t
 
 Swipe left or right anywhere on the day view to walk through previous days.
 
-> _SCREENSHOT: Log tab with chart header expanded (rings, bars, donut). Day with a few meals logged so totals are non-trivial._
+![Log tab with chart header and meals](docs/distribution/screenshots/log_view.jpeg)
 
 **Tap any nutrient on the chart** — a ring, a bar, the calorie center, anything — to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
 
@@ -48,7 +50,7 @@ Your cookbook. Each recipe is a list of ingredients with quantities. The nutriti
 
 When you log a recipe as a meal, it captures a snapshot of the nutrition at that moment. So if you tweak the recipe later, your historical meals don't change.
 
-> _SCREENSHOT: Recipes tab showing the list, plus a recipe detail with its ingredients and computed nutrition._
+![Recipe detail with computed nutrition](docs/distribution/screenshots/recipe_view.jpeg)
 
 ### Ingredients
 Your pantry. Every ingredient you've added — whether from a USDA search, a label scan, or typed in by hand — lives here with its full nutrition breakdown.
