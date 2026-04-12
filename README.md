@@ -28,34 +28,44 @@ If you make most of your food from real ingredients and you've spent ten minutes
 Four tabs.
 
 ### Log
+
+<img align="right" width="200" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
+
 Your day. The top of the screen is a chart header showing macros, calories vs. target, micronutrients, and limit nutrients (the things you want to stay under). Below that, a list of meals you've logged today.
 
 Swipe left or right anywhere on the day view to walk through previous days.
 
 **Tap any nutrient on the chart** — a ring, a bar, the calorie center, anything — to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
 
-![Calorie trend popup](screenshots/calorie_detail.png)
+<br clear="both">
 
 ### Trends
+
+<img align="right" width="200" src="screenshots/trends.png" alt="Trends tab">
+
 The longer view. Daily totals across weeks, average values, and a per-nutrient breakdown for whatever stretch you're looking at.
 
-![Trends tab](screenshots/trends.png)
+<br clear="both">
 
 ### Recipes
+
+<img align="right" width="200" src="screenshots/recipe_view.png" alt="Recipe detail">
+
 Your cookbook. Each recipe is a list of ingredients with quantities. The nutrition is computed from the ingredients — you don't enter it by hand.
 
 When you log a recipe as a meal, it captures a snapshot of the nutrition at that moment. So if you tweak the recipe later, your historical meals don't change.
 
-![Recipe detail](screenshots/recipe_view.png)
+<br clear="both">
 
 ### Ingredients
+
 Your pantry. Every ingredient you've added — whether from a USDA search, a label scan, or typed in by hand — lives here with its full nutrition breakdown.
 
-| | | |
-|:---:|:---:|:---:|
-| ![Ingredient list](screenshots/ingredient_list.png) | ![Ingredient detail](screenshots/ingredient.png) | ![Barcode scanner](screenshots/barcode_scanner.png) |
-
-![macOS ingredient split view](screenshots/macOS_ingredient.png)
+<table><tr>
+<td><img src="screenshots/ingredient_list.png" alt="Ingredient list"></td>
+<td><img src="screenshots/ingredient.png" alt="Ingredient detail"></td>
+<td><img src="screenshots/barcode_scanner.png" alt="Barcode scanner"></td>
+</tr></table>
 
 ---
 
@@ -75,7 +85,21 @@ Tap anything to drill in.
 
 ---
 
+## Customizing the display
+
+<img align="right" width="200" src="screenshots/settings.png" alt="Settings">
+
+**Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Sugar, hide Sugar — the Sugar bar disappears from the day view and the rest stays untouched.
+
+**Settings → Appearance** has eight accent colors. The colors flow through every accent in the app — toggles, selection rings, and segmented controls will all have your personal hue.
+
+<br clear="both">
+
+---
+
 ## Apple Health
+
+<img align="right" width="200" src="screenshots/apple_health.jpeg" alt="Apple Health settings">
 
 Off by default. Two independent toggles in Settings → Apple Health:
 
@@ -83,19 +107,19 @@ Off by default. Two independent toggles in Settings → Apple Health:
 
 **Show active calories.** When on, the calorie display reads your active energy burned from Health and renders a green ring inside the orange calorie ring, scaled to the same target.
 
-![Apple Health settings](screenshots/apple_health.jpeg)
-
 These are split because they're useful independently. You might want to publish nutrition to Health without trusting Apple's calorie burn estimate. Or you might want to see your burn against your intake without writing anything back to Health.
+
+<br clear="both">
 
 ---
 
-## Customizing the display
+## Works on Mac, too
 
-**Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Sugar, hide Sugar — the Sugar bar disappears from the day view and the rest stays untouched.
+<img align="right" width="400" src="screenshots/macOS_ingredient.png" alt="macOS ingredient split view">
 
-**Settings → Appearance** has eight accent colors. The colors flow through every accent in the app — toggles, selection rings, and segmented controls will all have your personal hue.
+The Daily Ration runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit on your Mac, log on your phone, or the other way around. The macOS version uses a split-view layout with full keyboard support.
 
-![Settings — accent colors and nutrient toggles](screenshots/settings.png)
+<br clear="both">
 
 ---
 
