@@ -10,7 +10,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 
 ## What it does
 
-- **Over 350 ingredients on day one.** Eggs, olive oil, chicken thighs, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
+- **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
 - **Scan a nutrition label.** No barcode? Photograph the nutrition facts panel and the app reads it.
 - **Search 400,000+ foods.** Need something niche? The full USDA FoodData Central database is a tap away.
@@ -24,8 +24,6 @@ If you make most of your food from real ingredients and you've spent ten minutes
 ---
 
 ## How it's organized
-
-Four tabs.
 
 ### Log
 
@@ -59,13 +57,9 @@ When you log a recipe as a meal, it captures a snapshot of the nutrition at that
 
 ### Ingredients
 
-Your pantry. Every ingredient you've added — whether from a USDA search, a label scan, or typed in by hand — lives here with its full nutrition breakdown.
+Your pantry. Scan a barcode, photograph a nutrition label, search the USDA database, or add one by hand — every ingredient lives here with its full nutrition breakdown.
 
-<table><tr>
-<td><img src="screenshots/ingredient_list.png" alt="Ingredient list"></td>
-<td><img src="screenshots/ingredient.png" alt="Ingredient detail"></td>
-<td><img src="screenshots/barcode_scanner.png" alt="Barcode scanner"></td>
-</tr></table>
+<img src="screenshots/ingredient_list.png" width="200" alt="Ingredient list">&nbsp;&nbsp;<img src="screenshots/ingredient.png" width="200" alt="Ingredient detail">&nbsp;&nbsp;<img src="screenshots/barcode_scanner.png" width="200" alt="Barcode scanner">
 
 ---
 
@@ -73,9 +67,9 @@ Your pantry. Every ingredient you've added — whether from a USDA search, a lab
 
 The chart header packs a lot into a small space. Here's the cheat sheet:
 
-- **Big donut** on the left: today's macros (protein, carbs, fat). Tap a wedge for that nutrient's trend.
+- **Big donut** on the left: macros (protein, carbs, fat). Tap a wedge for that nutrient's trend.
 - **Calorie ring** in the middle of the donut: how close you are to your calorie target. Past target it shifts toward red.
-- **Inner green ring** (only if you've enabled Apple Health active calories): how much you've burned today, scaled against the same calorie target so the two are directly comparable.
+- **Inner green ring** (only if you've enabled Apple Health active calories): how much you've burned, scaled against the same calorie target so the two are directly comparable.
 - **Limit bars** on the right (Sodium / Saturated Fat / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach your daily limit. You only see the ones you've enabled in Settings.
 - **Micro rings** below (Iron / Calcium / Magnesium / Potassium / Fiber): small rings that fill toward your daily target. Each one can be toggled on or off independently in Settings.
 
@@ -89,7 +83,7 @@ Tap anything to drill in.
 
 <img align="right" width="200" src="screenshots/settings.png" alt="Settings">
 
-**Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Sugar, hide Sugar — the Sugar bar disappears from the day view and the rest stays untouched.
+**Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it — the bar disappears from the day view and the rest stays untouched.
 
 **Settings → Appearance** has eight accent colors. The colors flow through every accent in the app — toggles, selection rings, and segmented controls will all have your personal hue.
 
