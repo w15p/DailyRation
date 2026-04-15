@@ -24,7 +24,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 ## How it's organized
 <br>
 
-<img align="left" width="200" hspace="16" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
+<img align="right" width="200" hspace="16" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
 
 ### Log
 
@@ -35,16 +35,18 @@ Swipe left or right anywhere on the day view to walk through previous days.
 **Tap any nutrient on the chart** — a ring, a bar, the calorie center, anything — to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
 
 <br clear="both">
+<br>
 
-<img align="left" width="200" hspace="16" src="screenshots/trends.png" alt="Trends — calories and limits"><img align="left" width="200" hspace="16" src="screenshots/trends_macros.png" alt="Trends — macros expanded">
+<img align="right" width="200" hspace="16" src="screenshots/trends_macros.png" alt="Trends — macros expanded"><img align="right" width="200" hspace="16" src="screenshots/trends.png" alt="Trends — calories and limits">
 
 ### Trends
 
 Line graphs across a rolling 7-day window: calories, macros, limits, and micronutrients. Tap any chart to expand it. Export daily totals as CSV with a configurable date range.
 
 <br clear="both">
+<br>
 
-<img align="left" width="200" hspace="16" src="screenshots/recipe_view.png" alt="Recipe detail">
+<img align="right" width="200" hspace="16" src="screenshots/recipe_view.png" alt="Recipe detail">
 
 ### Recipes
 
@@ -53,8 +55,9 @@ Your cookbook. Each recipe is a list of ingredients with quantities. The nutriti
 When you log a recipe as a meal, it captures a snapshot of the nutrition at that moment. So if you tweak the recipe later, your historical meals don't change.
 
 <br clear="both">
+<br>
 
-<img align="left" width="200" hspace="16" src="screenshots/ingredient.png" alt="Ingredient detail"><img align="left" width="200" hspace="16" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
+<img align="right" width="200" hspace="16" src="screenshots/ingredient.png" alt="Ingredient detail"><img align="right" width="200" hspace="16" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
 
 ### Ingredients
 
