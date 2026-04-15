@@ -74,7 +74,7 @@ The chart header packs a lot into a small space. Here's the cheat sheet:
 - **Big donut** on the left: macros (protein, carbs, fat). Tap a wedge for that nutrient's trend.
 - **Calorie ring** in the middle of the donut: how close you are to your calorie target. Past target it shifts toward red.
 - **Inner green ring** (only if you've enabled Apple Health active calories): how much you've burned, scaled against the same calorie target so the two are directly comparable.
-- **Limit bars** on the right (Sodium / Saturated Fat / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach your daily limit. You only see the ones you've enabled in Settings.
+- **Limit bars** on the right (Sodium / Saturated Fat / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach or exceed your daily limit. You only see the ones you've enabled in Settings.
 - **Micro rings** below (Iron / Calcium / Magnesium / Potassium / Fiber): small rings that fill toward your daily target. Each one can be toggled on or off independently in Settings.
 
 Tap anything to drill in.
@@ -126,7 +126,8 @@ The Daily Ration runs natively on macOS 14+. Ingredients, recipes, and meal logs
 There is no Daily Ration server. Nothing is collected, sold, transmitted, profiled, or analyzed.
 
 - Your data lives on your device. If you enable iCloud sync in Settings, it also lives in your private iCloud database — accessible only by you.
-- USDA ingredient search hits USDA's public API directly from your device. The query is the food name; nothing personal.
+- Barcode scans query Open Food Facts and then USDA directly from your device. The only data sent is the barcode number; nothing personal.
+- Ingredient search hits USDA's public API directly from your device. The query is the food name; nothing personal.
 - Apple Health integration is opt-in, runs entirely on-device, and never leaves your iCloud account.
 
 A formal privacy policy ships with the App Store listing.

@@ -34,7 +34,7 @@ When you search for an ingredient by name, the app queries the [USDA FoodData Ce
 
 ### Open Food Facts
 
-When you scan a barcode, the app queries the [Open Food Facts](https://world.openfoodfacts.org/) API directly from your device. The only data sent is the barcode number. No personal information, device identifiers, or usage data is included.
+When you scan a barcode, the app queries the [Open Food Facts](https://world.openfoodfacts.org/) API directly from your device. If no match is found, it falls back to USDA FoodData Central using the same barcode. The only data sent is the barcode number. No personal information, device identifiers, or usage data is included.
 
 No other network requests are made by the app.
 
