@@ -1,10 +1,10 @@
-# The Daily Ration
+# DailyRation
 
 A nutrition tracker for people who cook and don't want or need another account or subscription.
 
 If you make most of your food from real ingredients and you've spent ten minutes inside a mainstream nutrition app wondering where the recipe button is, this is for you.
 
-<img align="left" width="200" hspace="16" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
+<img align="left" width="200" hspace="16" src="docs/distribution/screenshots/200w/log_view.png" alt="Log tab with chart header and meals">
 
 - **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
@@ -24,7 +24,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 ## How it's organized
 <br>
 
-<img align="right" width="200" hspace="16" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
+<img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/calorie_detail.png" alt="Calorie trend popup">
 
 ### Log
 
@@ -37,7 +37,7 @@ Swipe left or right anywhere on the day view to walk through previous days.
 <br clear="both">
 <br>
 
-<img align="right" width="200" hspace="16" src="screenshots/trends_macros.png" alt="Trends — macros expanded"><img align="right" width="200" hspace="16" src="screenshots/trends.png" alt="Trends — calories and limits">
+<img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/trends_macros.png" alt="Trends — macros expanded"><img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/trends.png" alt="Trends — calories and limits">
 
 ### Trends
 
@@ -46,7 +46,7 @@ Line graphs across a rolling 7-day window: calories, macros, limits, and micronu
 <br clear="both">
 <br>
 
-<img align="right" width="200" hspace="16" src="screenshots/recipe_view.png" alt="Recipe detail">
+<img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/recipe_view.png" alt="Recipe detail">
 
 ### Recipes
 
@@ -57,7 +57,7 @@ When you log a recipe as a meal, it captures a snapshot of the nutrition at that
 <br clear="both">
 <br>
 
-<img align="right" width="200" hspace="16" src="screenshots/ingredient.png" alt="Ingredient detail"><img align="right" width="200" hspace="16" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
+<img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/ingredient.png" alt="Ingredient detail"><img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/barcode_scanner.png" alt="Barcode scanner">
 
 ### Ingredients
 
@@ -79,13 +79,13 @@ The chart header packs a lot into a small space. Here's the cheat sheet:
 
 Tap anything to drill in.
 
-![Chart header detail](screenshots/chart_detail.jpeg)
+![Chart header detail](docs/distribution/screenshots/600w/chart_detail.jpeg)
 
 ---
 
 ## Customizing the display
 
-<img align="right" width="200" hspace="16" src="screenshots/settings.png" alt="Settings">
+<img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/settings.png" alt="Settings">
 
 **Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it — the bar disappears from the day view and the rest stays untouched.
 
@@ -97,7 +97,7 @@ Tap anything to drill in.
 
 ## Apple Health
 
-<img align="right" width="200" hspace="16" src="screenshots/apple_health.jpeg" alt="Apple Health settings">
+<img align="right" width="200" hspace="16" src="docs/distribution/screenshots/200w/apple_health.jpeg" alt="Apple Health settings">
 
 Off by default. Two independent toggles in Settings → Apple Health:
 
@@ -113,9 +113,9 @@ These are split because they're useful independently. You might want to publish 
 
 ## Works on Mac, too
 
-<img align="right" width="400" hspace="16" src="screenshots/macOS_ingredient.png" alt="macOS ingredient split view">
+<img align="right" width="400" hspace="16" src="docs/distribution/screenshots/400w/macOS_ingredient.png" alt="macOS ingredient split view">
 
-The Daily Ration runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit on your Mac, log on your phone, or the other way around. The macOS version uses a split-view layout with full keyboard support.
+DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit on your Mac, log on your phone, or the other way around. The macOS version uses a split-view layout with full keyboard support.
 
 <br clear="both">
 
@@ -123,7 +123,7 @@ The Daily Ration runs natively on macOS 14+. Ingredients, recipes, and meal logs
 
 ## Privacy
 
-There is no Daily Ration server. Nothing is collected, sold, transmitted, profiled, or analyzed.
+There is no DailyRation server. Nothing is collected, sold, transmitted, profiled, or analyzed.
 
 - Your data lives on your device. If you enable iCloud sync in Settings, it also lives in your private iCloud database — accessible only by you.
 - Barcode scans query Open Food Facts and then USDA directly from your device. The only data sent is the barcode number; nothing personal.

@@ -1,6 +1,4 @@
-# Privacy Policy
-
-**The Daily Ration** is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
+**DailyRation** is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
 
 **Effective date:** April 9, 2026
 
@@ -8,7 +6,7 @@
 
 ## The Short Version
 
-The Daily Ration does not collect, transmit, or sell your personal data. There is no server, no analytics, no advertising, and no tracking. Everything lives on your device (and, optionally, in your private iCloud account).
+DailyRation does not collect, transmit, or sell your personal data. There is no server, no analytics, no advertising, and no tracking. Everything lives on your device (and, optionally, in your private iCloud account).
 
 ---
 
@@ -26,7 +24,7 @@ If you disable iCloud sync, recipes, ingredients, and meal logs remain on-device
 
 ## Network Requests
 
-The Daily Ration makes exactly two kinds of network requests, both initiated by you:
+DailyRation makes exactly two kinds of network requests, both initiated by you:
 
 ### USDA FoodData Central
 
@@ -40,7 +38,7 @@ No other network requests are made by the app.
 
 ## Apple Health Integration
 
-The Daily Ration offers optional Apple Health (HealthKit) integration, controlled by two independent toggles that are both **off by default**:
+DailyRation offers optional Apple Health (HealthKit) integration, controlled by two independent toggles that are both **off by default**:
 
 - **Write nutrition data to Health** --- logs each meal's nutrition (calories, protein, etc.) to Apple Health.
 - **Read active energy burned** --- reads your active calorie expenditure from Apple Health to display alongside nutrition data.
@@ -57,15 +55,15 @@ The app stores a small number of per-device preferences in UserDefaults, such as
 
 ## Third-Party SDKs
 
-There are none. The Daily Ration uses only Apple's first-party frameworks. There are no third-party SDKs, no analytics services, no crash reporters, no ad networks, no cookies, and no fingerprinting.
+There are none. DailyRation uses only Apple's first-party frameworks. There are no third-party SDKs, no analytics services, no crash reporters, no ad networks, no cookies, and no fingerprinting.
 
 ## Tracking
 
-The Daily Ration does not track you. It does not participate in App Tracking Transparency because there is nothing to track. No data is shared with third parties for advertising, analytics, or any other purpose.
+DailyRation does not track you. It does not participate in App Tracking Transparency because there is nothing to track. No data is shared with third parties for advertising, analytics, or any other purpose.
 
 ## Children's Privacy
 
-The Daily Ration does not knowingly collect information from children under 13. The app does not collect information from anyone --- it has no server and no data collection mechanism.
+DailyRation does not knowingly collect information from children under 13. The app does not collect information from anyone --- it has no server and no data collection mechanism.
 
 ## Changes to This Policy
 
