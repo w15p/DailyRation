@@ -36,6 +36,12 @@ When you search for an ingredient by name, the app queries the [USDA FoodData Ce
 
 When you scan a barcode, the app queries the [Open Food Facts](https://world.openfoodfacts.org/) API directly from your device. If no match is found, it falls back to USDA FoodData Central using the same barcode. The only data sent is the barcode number. No personal information, device identifiers, or usage data is included.
 
+#### Open Food Facts correction submissions
+
+When you fix bad data on an Open-Food-Facts-sourced ingredient, the app may offer to send your corrections back to Open Food Facts. This is opt-in per submission --- nothing is sent without you tapping Submit. You can also disable the prompt entirely under Settings > Data > Open Food Facts Corrections; with the toggle off, the app never offers to submit, regardless of how many Open-Food-Facts-sourced rows you edit. When you do submit, the request includes the corrected nutrition values, the product barcode, the app name, the app version, and a per-install identifier (`app_uuid`) used by Open Food Facts for app-attribution analytics. The `app_uuid` is generated on first submission and is not linked to your Apple ID, your Open Food Facts account, or any DailyRation identifier; uninstalling the app or resetting it generates a new one.
+
+For anonymous submissions, no other identifying data is sent. For signed-in submissions, your Open Food Facts username is sent as part of the standard HTTP authentication header that Open Food Facts requires --- your password is used only for the in-flight request and is never stored by DailyRation.
+
 No other network requests are made by the app.
 
 ## Apple Health Integration

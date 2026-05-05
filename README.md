@@ -127,6 +127,7 @@ There is no DailyRation server. Nothing is collected, sold, transmitted, profile
 
 - Your data lives on your device. If you enable iCloud sync in Settings, it also lives in your private iCloud database — accessible only by you.
 - Barcode scans query Open Food Facts and then USDA directly from your device. The only data sent is the barcode number; nothing personal.
+- If you fix bad data on an Open Food Facts ingredient, the editor offers (per-submission, opt-in) to send your corrections back so the next person who scans the same product gets the right numbers. You can disable the prompt entirely under Settings.
 - Ingredient search hits USDA's public API directly from your device. The query is the food name; nothing personal.
 - Apple Health integration is opt-in, runs entirely on-device, and never leaves your iCloud account.
 
