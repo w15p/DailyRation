@@ -14,7 +14,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 - **Cook a recipe once, log it forever.** Build a recipe out of ingredients, and every time you eat it, log it as one tap.
 - **See your day at a glance.** Calories, protein, carbs, fat, plus the micronutrients you actually care about — all on one screen.
 - **Trends across days and weeks.** Tap any nutrient on the day view to see a 7-day chart with your target line.
-- **Sync across your devices.** iCloud sync is opt-in — enable it in Settings if you want multi-device. No account, no signup, no password.
+- **Sync across your devices.** iCloud sync is on by default — turn it off in Settings if you want device-only. No account, no signup, no password.
 - **Optional Apple Health integration.** Publish what you eat to Health, or pull in your active calories burned to compare against what you ate. Both are off by default and independently configurable.
 
 <br clear="both">
@@ -125,7 +125,7 @@ DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are 
 
 There is no DailyRation server. Nothing is collected, sold, transmitted, profiled, or analyzed.
 
-- Your data lives on your device. If you enable iCloud sync in Settings, it also lives in your private iCloud database — accessible only by you.
+- Your data lives on your device. With iCloud sync on (default), it also lives in your private iCloud database — accessible only by you. You can turn sync off in Settings.
 - Barcode scans query Open Food Facts and then USDA directly from your device. The only data sent is the barcode number; nothing personal.
 - If you fix bad data on an Open Food Facts ingredient, the editor offers (per-submission, opt-in) to send your corrections back so the next person who scans the same product gets the right numbers. You can disable the prompt entirely under Settings.
 - Ingredient search hits USDA's public API directly from your device. The query is the food name; nothing personal.
