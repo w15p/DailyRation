@@ -4,7 +4,9 @@ A nutrition tracker for people who cook and don't want or need another account o
 
 If you make most of your food from real ingredients and you've spent ten minutes inside a mainstream nutrition app wondering where the recipe button is, this is for you.
 
-<img align="left" width="250" hspace="16" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
+<p align="center">
+  <img width="250" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
+</p>
 
 - **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
@@ -18,14 +20,9 @@ If you make most of your food from real ingredients and you've spent ten minutes
 - **Sync across your devices.** iCloud sync is on by default — turn it off in Settings if you want device-only. No account, no signup, no password.
 - **Optional Apple Health integration.** Publish what you eat to Health, or pull in your active calories burned to compare against what you ate. Both are off by default and independently configurable.
 
-<br clear="both">
-
 ---
 
 ## How it's organized
-<br>
-
-<img align="right" width="200" hspace="16" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
 
 ### Log
 
@@ -35,19 +32,19 @@ Swipe left or right anywhere on the day view to walk through previous days.
 
 **Tap any nutrient on the chart** — a ring, a bar, the calorie center, anything — to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
 
-<br clear="both">
-<br>
-
-<img align="right" width="200" hspace="16" src="screenshots/trends_macros.png" alt="Trends — macros expanded"><img align="right" width="200" hspace="16" src="screenshots/trends.png" alt="Trends — calories and limits">
+<p align="center">
+  <img width="200" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
+</p>
 
 ### Trends
 
 Line graphs across a rolling 7-day window: calories, macros, limits, and micronutrients. Tap any chart to expand it. Export daily totals as CSV with a configurable date range.
 
-<br clear="both">
-<br>
-
-<img align="right" width="200" hspace="16" src="screenshots/recipe_view.png" alt="Recipe detail">
+<p align="center">
+  <img width="200" src="screenshots/trends_macros.png" alt="Trends — macros expanded">
+  &nbsp;
+  <img width="200" src="screenshots/trends.png" alt="Trends — calories and limits">
+</p>
 
 ### Recipes
 
@@ -55,16 +52,19 @@ Your cookbook. Each recipe is a list of ingredients with quantities. The nutriti
 
 When you log a recipe as a meal, it captures a snapshot of the nutrition at that moment. So if you tweak the recipe later, your historical meals don't change.
 
-<br clear="both">
-<br>
-
-<img align="right" width="200" hspace="16" src="screenshots/ingredient.png" alt="New ingredient editor with category prefilled from a barcode scan"><img align="right" width="200" hspace="16" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
+<p align="center">
+  <img width="200" src="screenshots/recipe_view.png" alt="Recipe detail">
+</p>
 
 ### Ingredients
 
 Your pantry. Scan a barcode, photograph a nutrition label, search the USDA database, or add one by hand — every ingredient lives here with its full nutrition breakdown. Scanned products arrive pre-filled, including the right category, so most of the time you just glance and save.
 
-<br clear="both">
+<p align="center">
+  <img width="200" src="screenshots/ingredient.png" alt="New ingredient editor with category prefilled from a barcode scan">
+  &nbsp;
+  <img width="200" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
+</p>
 
 ---
 
@@ -80,25 +80,25 @@ The chart header packs a lot into a small space. Here's the cheat sheet:
 
 Tap anything to drill in.
 
-![Chart header detail](screenshots/chart_detail.jpeg)
+<p align="center">
+  <img src="screenshots/chart_detail.jpeg" alt="Chart header detail">
+</p>
 
 ---
 
 ## Customizing the display
 
-<img align="right" width="200" hspace="16" src="screenshots/settings.png" alt="Settings">
-
 **Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it — the bar disappears from the day view and the rest stays untouched.
 
 **Settings → Appearance** has eight accent colors. The colors flow through every accent in the app — toggles, selection rings, and segmented controls will all have your personal hue.
 
-<br clear="both">
+<p align="center">
+  <img width="200" src="screenshots/settings.png" alt="Settings">
+</p>
 
 ---
 
 ## Apple Health
-
-<img align="right" width="200" hspace="16" src="screenshots/apple_health.jpeg" alt="Apple Health settings">
 
 Off by default. Two independent toggles in Settings → Apple Health:
 
@@ -108,17 +108,19 @@ Off by default. Two independent toggles in Settings → Apple Health:
 
 These are split because they're useful independently. You might want to publish nutrition to Health without trusting Apple's calorie burn estimate. Or you might want to see your burn against your intake without writing anything back to Health.
 
-<br clear="both">
+<p align="center">
+  <img width="200" src="screenshots/apple_health.jpeg" alt="Apple Health settings">
+</p>
 
 ---
 
 ## Works on Mac, too
 
-<img align="right" width="400" hspace="16" src="screenshots/macOS_ingredient.png" alt="macOS ingredient list sorted by category, split view">
-
 DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit a recipe on your Mac, log it from your phone. The split-view layout turns the macOS app into a real kitchen reference: sort the sidebar by category, source, or name; see full nutrition on the right. Arrow-key navigation throughout.
 
-<br clear="both">
+<p align="center">
+  <img width="560" src="screenshots/macOS_ingredient.png" alt="macOS ingredient list sorted by category, split view">
+</p>
 
 ---
 

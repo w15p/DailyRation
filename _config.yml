@@ -1,0 +1,21 @@
+# GitHub Pages: Jekyll site config.
+#
+# Cayman is a single-layout theme on the GitHub Pages allowlist —
+# enabling it gives the public site a responsive container, hero,
+# and mobile-friendly typography without any custom CSS work. Pages
+# rebuild automatically on push.
+#
+# To switch to a custom layout later: comment out `theme:`, add
+# `_layouts/default.html` with your own HTML. Content (README.md,
+# privacy.md) doesn't need to change — Jekyll wraps `{{ content }}`
+# the same way regardless of theme.
+
+theme: jekyll-theme-cayman
+
+title: DailyRation
+description: A nutrition tracker for people who cook
+
+# Suppress the default "Download .zip" hero button. Keep the
+# "View on GitHub" button (Cayman's default) — useful for the
+# developer audience landing here from a social share.
+show_downloads: false
