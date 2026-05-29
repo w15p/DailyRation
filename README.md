@@ -10,6 +10,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
 - **Scan a nutrition label.** No barcode? Photograph the nutrition facts panel and the app reads it.
 - **Search 400,000+ foods.** Need something niche? The full USDA FoodData Central database is a tap away.
+- **Organized like a kitchen.** Your library auto-groups into Fruits, Vegetables, Dairy & Eggs, Sweets, and more — fifteen buckets that match how you actually shop. USDA seed items and barcode-scanned products land in the right place automatically.
 - **Enter it yourself.** For anything else, add an ingredient manually with your own nutrition data.
 - **Cook a recipe once, log it forever.** Build a recipe out of ingredients, and every time you eat it, log it as one tap.
 - **See your day at a glance.** Calories, protein, carbs, fat, plus the micronutrients you actually care about — all on one screen.
@@ -57,11 +58,11 @@ When you log a recipe as a meal, it captures a snapshot of the nutrition at that
 <br clear="both">
 <br>
 
-<img align="right" width="200" hspace="16" src="screenshots/ingredient.png" alt="Ingredient detail"><img align="right" width="200" hspace="16" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
+<img align="right" width="200" hspace="16" src="screenshots/ingredient.png" alt="New ingredient editor with category prefilled from a barcode scan"><img align="right" width="200" hspace="16" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
 
 ### Ingredients
 
-Your pantry. Scan a barcode, photograph a nutrition label, search the USDA database, or add one by hand — every ingredient lives here with its full nutrition breakdown.
+Your pantry. Scan a barcode, photograph a nutrition label, search the USDA database, or add one by hand — every ingredient lives here with its full nutrition breakdown. Scanned products arrive pre-filled, including the right category, so most of the time you just glance and save.
 
 <br clear="both">
 
@@ -113,9 +114,9 @@ These are split because they're useful independently. You might want to publish 
 
 ## Works on Mac, too
 
-<img align="right" width="400" hspace="16" src="screenshots/macOS_ingredient.png" alt="macOS ingredient split view">
+<img align="right" width="400" hspace="16" src="screenshots/macOS_ingredient.png" alt="macOS ingredient list sorted by category, split view">
 
-DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit on your Mac, log on your phone, or the other way around. The macOS version uses a split-view layout with full keyboard support.
+DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit a recipe on your Mac, log it from your phone. The split-view layout turns the macOS app into a real kitchen reference: sort the sidebar by category, source, or name; see full nutrition on the right. Arrow-key navigation throughout.
 
 <br clear="both">
 
