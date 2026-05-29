@@ -1,0 +1,26 @@
+---
+---
+
+// Cayman theme overrides. Variables defined BEFORE the @import
+// replace the theme defaults. Anything past the import is layered
+// on as additional rules.
+//
+// Body background: the macOS light-mode screenshot has a near-white
+// window background of its own, which blends into Cayman's pure-white
+// body and erases the rounded-window edge. iOS systemGroupedBackground
+// (the gray around white cards in iOS Settings) is #F2F2F7; #EBEBF0
+// sits a touch darker so the macOS window reads as a distinct surface.
+//
+// Accent green: Cayman's default green is #159957 (a teal-leaning
+// green). The app uses "lime" at #4EA800 as its green accent option
+// (see UserProfile.swift). Swap the theme green for the app green
+// wherever it appears: section headings, hero gradient bottom, body
+// links. Keeps the marketing surface visually consistent with the
+// app accent.
+
+$body-bg: #EBEBF0;
+$section-headings-color: #4EA800;
+$header-bg-color-secondary: #4EA800;
+$body-link-color: #4EA800;
+
+@import "{{ site.theme }}";
