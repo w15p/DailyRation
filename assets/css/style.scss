@@ -33,14 +33,3 @@ body {
   background-color: #E1E1E6;
 }
 
-// Cayman's main content is up to 1024px wide on large desktop. The
-// README looks narrower because its centered screenshots cap the
-// visual centerline at ~560px or less, but the privacy page (pure
-// text) fills the container edge-to-edge and feels too wide as a
-// reading column. Cap the container at ~720px — a comfortable
-// reading width that matches the visual feel of the README's
-// image-anchored sections. Images still fit centered within the
-// narrower container (all are 560px wide or less).
-.main-content {
-  max-width: 720px;
-}
