@@ -2,7 +2,7 @@
 
 DailyRation is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
 
-**Effective date:** April 9, 2026
+**Effective April 9, 2026. Last updated May 29, 2026.**
 
 ---
 
@@ -57,9 +57,13 @@ Both features run entirely on-device through Apple's HealthKit framework. No hea
 
 The app can use your device's camera to scan nutrition labels via Apple's Vision framework (on-device OCR). Images are processed locally and are never transmitted, stored, or uploaded anywhere. The app requests camera access only when you initiate a label scan, and you can revoke camera permission at any time in system settings.
 
+## In-App Review Prompt
+
+After you have logged at least 10 meals across 7 different days, the app may show Apple's standard in-app review prompt (`SKStoreReviewController`). Apple rate-limits this prompt to at most three appearances per user per year regardless of how often an app requests it. If you choose to rate the app or write a review, that interaction is handled entirely by Apple's App Store infrastructure under Apple's terms --- DailyRation never sees, receives, or stores your rating, review, or whether you chose to leave one. The app records only a single local flag (see UserDefaults below) noting that the prompt has been shown, so it does not re-trigger on subsequent meal saves.
+
 ## UserDefaults
 
-The app stores a small number of per-device preferences in UserDefaults, such as HealthKit opt-in states and iCloud sync preference. These are local device flags that never leave your device.
+The app stores a small number of per-device preferences in UserDefaults, such as HealthKit opt-in states, iCloud sync preference, and a one-time flag noting whether the in-app review prompt has been shown. These are local device flags that never leave your device.
 
 ## Third-Party SDKs
 
