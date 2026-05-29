@@ -4,7 +4,7 @@ A nutrition tracker for people who cook and don't want or need another account o
 
 If you make most of your food from real ingredients and you've spent ten minutes inside a mainstream nutrition app wondering where the recipe button is, this is for you.
 
-<img align="left" width="200" hspace="16" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
+<img align="left" width="240" hspace="16" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
 
 - **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
