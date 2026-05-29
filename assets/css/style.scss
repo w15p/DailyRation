@@ -8,8 +8,10 @@
 // Body background: the macOS light-mode screenshot has a near-white
 // window background of its own, which blends into Cayman's pure-white
 // body and erases the rounded-window edge. iOS systemGroupedBackground
-// (the gray around white cards in iOS Settings) is #F2F2F7; #EBEBF0
-// sits a touch darker so the macOS window reads as a distinct surface.
+// is #F2F2F7; the original try of #EBEBF0 (~7 RGB darker) ended up
+// reading as the same surface as the iOS form backgrounds in several
+// screenshots. #E1E1E6 sits ~14 RGB darker than iOS bg — clearly
+// distinct without going heavy.
 //
 // Accent green: Cayman's default green is #159957 (a teal-leaning
 // green). The app uses "lime" at #4EA800 as its green accent option
@@ -28,7 +30,7 @@ $body-link-color: #4EA800;
 // post-import as a direct rule. Without this the page is pure white
 // and the macOS light-mode screenshot has no edge contrast.
 body {
-  background-color: #EBEBF0;
+  background-color: #E1E1E6;
 }
 
 // Cayman's main content is up to 1024px wide on large desktop. The

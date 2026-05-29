@@ -81,7 +81,7 @@ The chart header packs a lot into a small space. Here's the cheat sheet:
 Tap anything to drill in.
 
 <p align="center">
-  <img src="docs/distribution/screenshots/chart_detail.jpeg" alt="Chart header detail">
+  <img src="screenshots/chart_detail.jpeg" alt="Chart header detail">
 </p>
 
 ---
@@ -119,7 +119,7 @@ These are split because they're useful independently. You might want to publish 
 DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit a recipe on your Mac, log it from your phone. The split-view layout turns the macOS app into a real kitchen reference: sort the sidebar by category, source, or name; see full nutrition on the right. Arrow-key navigation throughout.
 
 <p align="center">
-  <img width="560" src="docs/distribution/screenshots/macOS_ingredient.png" alt="macOS ingredient list sorted by category, split view">
+  <img width="560" src="screenshots/macOS_ingredient.png" alt="macOS ingredient list sorted by category, split view">
 </p>
 
 ---
