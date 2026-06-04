@@ -11,7 +11,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 - **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
 - **Scan a nutrition label.** No barcode? Photograph the nutrition facts panel and the app reads it.
-- **Search 400,000+ foods.** Need something niche? The full USDA FoodData Central database is a tap away.
+- **Search USDA and Open Food Facts.** Type a food name and search the full USDA FoodData Central database (whole, raw ingredients) or Open Food Facts (branded and packaged products USDA does not carry). Flip between the two catalogs with one tap, pick a result, review it, and save.
 - **Organized like a kitchen.** Your library auto-groups into Fruits, Vegetables, Dairy & Eggs, Sweets, and more — fifteen buckets that match how you actually shop. USDA seed items and barcode-scanned products land in the right place automatically.
 - **Enter it yourself.** For anything else, add an ingredient manually with your own nutrition data.
 - **Cook a recipe once, log it forever.** Build a recipe out of ingredients, and every time you eat it, log it as one tap.
@@ -52,13 +52,18 @@ Your cookbook. Each recipe is a list of ingredients with quantities. The nutriti
 
 When you log a recipe as a meal, it captures a snapshot of the nutrition at that moment. So if you tweak the recipe later, your historical meals don't change.
 
+**Two shortcuts worth knowing:**
+
+- In the Log tab, press and hold a meal (right-click on Mac) and choose **Save as Recipe** - one step turns a one-off dinner into a reusable recipe. It also relinks that logged meal to point at the new recipe, so the day's entry now reads as the recipe you just made.
+- When logging a meal, press and hold a recipe in the picker and choose **Use as Template**. Instead of logging the recipe as one line, it pre-fills the meal with the recipe's individual ingredients, so you can tweak this serving (swap an ingredient, change a quantity) before saving. A normal tap still logs the recipe as one item.
+
 <p align="center">
   <img width="200" src="screenshots/recipe_view.png" alt="Recipe detail">
 </p>
 
 ### Ingredients
 
-Your pantry. Scan a barcode, photograph a nutrition label, search the USDA database, or add one by hand — every ingredient lives here with its full nutrition breakdown. Scanned products arrive pre-filled, including the right category, so most of the time you just glance and save.
+Your pantry. Scan a barcode, photograph a nutrition label, search USDA or Open Food Facts by name, or add one by hand - every ingredient lives here with its full nutrition breakdown. Scanned products arrive pre-filled, including the right category, so most of the time you just glance and save.
 
 <p align="center">
   <img width="200" src="screenshots/ingredient.png" alt="New ingredient editor with category prefilled from a barcode scan">
@@ -75,7 +80,7 @@ The chart header packs a lot into a small space. Here's the cheat sheet:
 - **Big donut** on the left: macros (protein, carbs, fat). Tap a wedge for that nutrient's trend.
 - **Calorie ring** in the middle of the donut: how close you are to your calorie target. Past target it shifts toward red.
 - **Inner green ring** (only if you've enabled Apple Health active calories): how much you've burned, scaled against the same calorie target so the two are directly comparable.
-- **Limit bars** on the right (Sodium / Saturated Fat / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach or exceed your daily limit. You only see the ones you've enabled in Settings.
+- **Limit bars** on the right (Sodium / Saturated Fat / Cholesterol / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach or exceed your daily limit. You only see the ones you've enabled in Settings.
 - **Micro rings** below (Iron / Calcium / Magnesium / Potassium / Fiber): small rings that fill toward your daily target. Each one can be toggled on or off independently in Settings.
 
 Tap anything to drill in.
@@ -88,9 +93,9 @@ Tap anything to drill in.
 
 ## Customizing the display
 
-**Settings → Nutrients** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it — the bar disappears from the day view and the rest stays untouched.
+**Settings → Nutrition** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it - the bar disappears from the day view and the rest stays untouched.
 
-**Settings → Appearance** has eight accent colors. The colors flow through every accent in the app — toggles, selection rings, and segmented controls will all have your personal hue.
+**Settings → Display** has eight accent colors. The colors flow through every accent in the app - toggles, selection rings, and segmented controls will all have your personal hue.
 
 <p align="center">
   <img width="200" src="screenshots/settings.png" alt="Settings">
@@ -130,8 +135,8 @@ There is no DailyRation server. Nothing is collected, sold, transmitted, profile
 
 - Your data lives on your device. With iCloud sync on (default), it also lives in your private iCloud database — accessible only by you. You can turn sync off in Settings.
 - Barcode scans query Open Food Facts and then USDA directly from your device. The only data sent is the barcode number; nothing personal.
-- If you fix bad data on an Open Food Facts ingredient, the editor offers (per-submission, opt-in) to send your corrections back so the next person who scans the same product gets the right numbers. You can disable the prompt entirely under Settings.
-- Ingredient search hits USDA's public API directly from your device. The query is the food name; nothing personal.
+- Sending corrections back to Open Food Facts is off by default. If you turn it on under Settings → Data, the editor will offer (per submission) to push your fixes upstream so the next person who scans the same product gets the right numbers. Even then it never sends anything without you tapping Submit.
+- Ingredient name search hits USDA's public API or Open Food Facts' search service (search.openfoodfacts.org), depending on which catalog you pick, directly from your device. The query is the food name; nothing personal.
 - Apple Health integration is opt-in, runs entirely on-device, and never leaves your iCloud account.
 
 **[Full Privacy Policy →](https://w15p.github.io/DailyRation/privacy)** &nbsp; (also referenced from the App Store listing)

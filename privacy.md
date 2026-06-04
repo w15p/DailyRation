@@ -6,7 +6,7 @@ title: Privacy Policy
 
 DailyRation is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
 
-**Effective April 9, 2026. Last updated May 29, 2026.**
+**Effective April 9, 2026. Last updated June 3, 2026.**
 
 ---
 
@@ -30,7 +30,7 @@ If you disable iCloud sync, recipes, ingredients, and meal logs remain on-device
 
 ## Network Requests
 
-DailyRation makes exactly two kinds of network requests, both initiated by you:
+DailyRation makes a small number of network requests, all initiated by you:
 
 ### USDA FoodData Central
 
@@ -39,6 +39,8 @@ When you search for an ingredient by name, the app queries the [USDA FoodData Ce
 ### Open Food Facts
 
 When you scan a barcode, the app queries the [Open Food Facts](https://world.openfoodfacts.org/) API directly from your device. If no match is found, it falls back to USDA FoodData Central using the same barcode. The only data sent is the barcode number. No personal information, device identifiers, or usage data is included.
+
+When you search for a food by name and choose the Open Food Facts catalog, the app queries Open Food Facts' search service (search.openfoodfacts.org) directly from your device. The only data sent is the search text you typed. If you then pick a result, the app fetches that one product's full details from Open Food Facts to fill in serving size and nutrition. No personal information, device identifiers, or usage data is included.
 
 #### Open Food Facts correction submissions
 
