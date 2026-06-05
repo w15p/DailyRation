@@ -6,7 +6,7 @@ title: Privacy Policy
 
 DailyRation is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
 
-**Effective April 9, 2026. Last updated June 3, 2026.**
+**Effective April 9, 2026. Last updated June 5, 2026.**
 
 ---
 
@@ -54,10 +54,10 @@ No other network requests are made by the app.
 
 DailyRation offers optional Apple Health (HealthKit) integration, controlled by two independent toggles that are both **off by default**:
 
-- **Write nutrition data to Health** --- logs each meal's nutrition (calories, protein, etc.) to Apple Health.
-- **Read active energy burned** --- reads your active calorie expenditure from Apple Health to display alongside nutrition data.
+- **Publish nutrients to Health** --- logs each meal's nutrition (calories, protein, etc.) to Apple Health.
+- **Show active calories** --- reads your active energy burned from Apple Health to display alongside your calorie intake.
 
-Both features run entirely on-device through Apple's HealthKit framework. No health data is sent to any server. You can enable or disable either toggle at any time in the app's settings, and you can revoke Health access at the system level in Settings > Health > DailyRation.
+Both features run entirely on-device through Apple's HealthKit framework. No health data is sent to any server. You can enable or disable either toggle at any time in the app's settings, and you can revoke Health access at any time in the Health app under Sharing > Apps and Services > DailyRation.
 
 ## Nutrition Label Scanning
 

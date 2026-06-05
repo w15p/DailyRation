@@ -30,7 +30,7 @@ Your day. The top of the screen is a chart header showing macros, calories vs. t
 
 Swipe left or right anywhere on the day view to walk through previous days.
 
-**Tap any nutrient on the chart** — a ring, a bar, the calorie center, anything — to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
+**Tap any nutrient on the chart** — a ring, a bar, the calorie ring, anything — to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
 
 <p align="center">
   <img width="200" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
@@ -41,9 +41,9 @@ Swipe left or right anywhere on the day view to walk through previous days.
 Line graphs across a rolling 7-day window: calories, macros, limits, and micronutrients. Tap any chart to expand it. Export daily totals as CSV with a configurable date range.
 
 <p align="center">
-  <img width="200" src="screenshots/trends_macros.png" alt="Trends — macros expanded">
-  &nbsp;
   <img width="200" src="screenshots/trends.png" alt="Trends — calories and limits">
+  &nbsp;
+  <img width="200" src="screenshots/trends_macros.png" alt="Trends — macros expanded">
 </p>
 
 ### Recipes
@@ -59,6 +59,10 @@ When you log a recipe as a meal, it captures a snapshot of the nutrition at that
 
 <p align="center">
   <img width="200" src="screenshots/recipe_view.png" alt="Recipe detail">
+  &nbsp;
+  <img width="200" src="screenshots/save_as_recipe.png" alt="Save as Recipe from a logged meal">
+  &nbsp;
+  <img width="200" src="screenshots/use_as_template.png" alt="Use a recipe as a meal template">
 </p>
 
 ### Ingredients
@@ -66,22 +70,22 @@ When you log a recipe as a meal, it captures a snapshot of the nutrition at that
 Your pantry. Scan a barcode, photograph a nutrition label, search USDA or Open Food Facts by name, or add one by hand - every ingredient lives here with its full nutrition breakdown. Scanned products arrive pre-filled, including the right category, so most of the time you just glance and save.
 
 <p align="center">
-  <img width="200" src="screenshots/ingredient.png" alt="New ingredient editor with category prefilled from a barcode scan">
-  &nbsp;
   <img width="200" src="screenshots/barcode_scanner.png" alt="Barcode scanner">
+  &nbsp;
+  <img width="200" src="screenshots/ingredient.png" alt="New ingredient editor with category prefilled from a barcode scan">
 </p>
 
 ---
 
 ## Reading the chart header
 
-The chart header packs a lot into a small space. Here's the cheat sheet:
+The chart header packs a lot into a small space.
 
-- **Big donut** on the left: macros (protein, carbs, fat). Tap a wedge for that nutrient's trend.
-- **Calorie ring** in the middle of the donut: how close you are to your calorie target. Past target it shifts toward red.
-- **Inner green ring** (only if you've enabled Apple Health active calories): how much you've burned, scaled against the same calorie target so the two are directly comparable.
-- **Limit bars** on the right (Sodium / Saturated Fat / Cholesterol / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach or exceed your daily limit. You only see the ones you've enabled in Settings.
-- **Micro rings** below (Iron / Calcium / Magnesium / Potassium / Fiber): small rings that fill toward your daily target. Each one can be toggled on or off independently in Settings.
+- **Macro ring graph**: protein, carbs, fat. Tap a wedge for that nutrient's trend.
+- **Calorie inner ring**: how close you are to your calorie target. Past target it shifts toward red.
+- **Active calorie inner ring** (only if you've enabled Apple Health active calories): how much you've burned, scaled against the same calorie target so the two are directly comparable.
+- **Limit bars** (Sodium / Saturated Fat / Cholesterol / Added Sugar / Alcohol): horizontal bars that go from green to amber to red as you approach or exceed your daily limit. You only see the ones you've enabled in Settings.
+- **Micro rings** (Iron / Calcium / Magnesium / Potassium / Fiber): small rings that fill toward your daily target. Each one can be toggled on or off independently in Settings.
 
 Tap anything to drill in.
 
@@ -98,18 +102,20 @@ Tap anything to drill in.
 **Settings → Display** has eight accent colors. The colors flow through every accent in the app - toggles, selection rings, and segmented controls will all have your personal hue.
 
 <p align="center">
-  <img width="200" src="screenshots/settings.png" alt="Settings">
+  <img width="200" src="screenshots/settings_nutrition.png" alt="Settings - Nutrition tab">
+  &nbsp;
+  <img width="200" src="screenshots/settings.png" alt="Settings - Display tab">
 </p>
 
 ---
 
 ## Apple Health
 
-Off by default. Two independent toggles in Settings → Apple Health:
+Off by default. Two independent toggles in Settings → Data → Apple Health:
 
 **Publish nutrients to Health.** When on, every meal you save also writes a nutrition entry to Apple Health, grouped under "DailyRation" as a meal correlation. Edits and deletes propagate. To stop sharing later, open the Health app → Sharing → Apps and Services → DailyRation.
 
-**Show active calories.** When on, the calorie display reads your active energy burned from Health and renders a green ring inside the orange calorie ring, scaled to the same target.
+**Show active calories.** When on, the calorie display reads your active energy burned from Health and renders a green active calorie ring inside the orange calorie ring, scaled to the same target.
 
 These are split because they're useful independently. You might want to publish nutrition to Health without trusting Apple's calorie burn estimate. Or you might want to see your burn against your intake without writing anything back to Health.
 
@@ -121,10 +127,12 @@ These are split because they're useful independently. You might want to publish 
 
 ## Works on Mac, too
 
-DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit a recipe on your Mac, log it from your phone. The split-view layout turns the macOS app into a real kitchen reference: sort the sidebar by category, source, or name; see full nutrition on the right. Arrow-key navigation throughout.
+DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are the same data on both platforms — edit a recipe on your Mac, log it from your phone. Your whole day reads at a glance on a desktop screen, and the split-view layout turns Recipes and Ingredients into a real kitchen reference: sort the sidebar by category, source, or name; see full nutrition on the right. Arrow-key navigation throughout.
 
 <p align="center">
-  <img width="560" src="screenshots/macOS_ingredient.png" alt="macOS ingredient list sorted by category, split view">
+  <img width="300" src="screenshots/macOS_log.png" alt="macOS Log day view (light)">
+  &nbsp;
+  <img width="300" src="screenshots/macOS_recipe.png" alt="macOS recipe list with full nutrition, split view (dark)">
 </p>
 
 ---
@@ -153,7 +161,7 @@ There is no DailyRation server. Nothing is collected, sold, transmitted, profile
 
 ## Support
 
-Found a bug? Have a feature request? [Open an issue.](https://github.com/w15p/dailyration/issues)
+Found a bug? Have a feature request? [Open an issue.](https://github.com/w15p/DailyRation/issues)
 
 ---
 
