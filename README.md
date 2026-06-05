@@ -97,7 +97,7 @@ Tap anything to drill in.
 
 ## Customizing the display
 
-**Settings → Nutrition** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it - the bar disappears from the day view and the rest stays untouched.
+**Settings → Nutrition** lets you toggle each non-macro nutrient or limit on and off independently. If you don't care about Saturated Fat, hide it - the bar disappears from the day view and the rest stays untouched.
 
 **Settings → Display** has eight accent colors. The colors flow through every accent in the app - toggles, selection rings, and segmented controls will all have your personal hue.
 
