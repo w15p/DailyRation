@@ -26,11 +26,11 @@ If you make most of your food from real ingredients and you've spent ten minutes
 
 ### Log
 
-Your day. The top of the screen is a chart header showing macros, calories vs. target, micronutrients, and limits that you want to minimize. Below that, a list of meals you've logged today. On iPhone or iPad, long-press the app icon to jump straight to Log a Meal.
+Your day. The top of the screen is a chart header showing macros, calories vs. target, micronutrients, and limits. Below that, a list of meals you've logged today. On iPhone or iPad, long-press the app icon to jump straight to Log a Meal.
 
 Swipe left or right anywhere on the day view to walk through previous days.
 
-**Tap any nutrient or limit on the chart**, ring or bar, to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
+**Tap any nutrient or limit on the chart** to open a 7-day trend popup with a target line. Swipe inside the popup to walk back through earlier weeks.
 
 <p align="center">
   <img width="200" src="screenshots/calorie_detail.png" alt="Calorie trend popup">
@@ -100,6 +100,8 @@ Tap anything to drill in.
 **Settings → Nutrition** lets you toggle each non-macro nutrient on and off independently. If you don't care about Saturated Fat, hide it - the bar disappears from the day view and the rest stays untouched.
 
 **Settings → Display** has eight accent colors. The colors flow through every accent in the app - toggles, selection rings, and segmented controls will all have your personal hue.
+
+Every color is tuned to read well in both light and dark mode, on iPhone, iPad, and Mac.
 
 <p align="center">
   <img width="200" src="screenshots/settings_nutrition.png" alt="Settings - Nutrition tab">
