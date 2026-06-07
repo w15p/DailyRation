@@ -44,9 +44,9 @@ When you search for a food by name and choose the Open Food Facts catalog, the a
 
 #### Open Food Facts correction submissions
 
-When you fix bad data on an Open-Food-Facts-sourced ingredient, the app may offer to send your corrections back to Open Food Facts. This is opt-in per submission --- nothing is sent without you tapping Submit. You can also disable the prompt entirely under Settings > Data > Open Food Facts Corrections; with the toggle off, the app never offers to submit, regardless of how many Open-Food-Facts-sourced rows you edit. When you do submit, the request includes the corrected nutrition values, the product barcode, the app name, the app version, and a per-install identifier (`app_uuid`) used by Open Food Facts for app-attribution analytics. The `app_uuid` is generated on first submission and is not linked to your Apple ID, your Open Food Facts account, or any DailyRation identifier; uninstalling the app or resetting it generates a new one.
+When you fix bad data on an Open-Food-Facts-sourced ingredient, the app may offer to send your corrections back to Open Food Facts. This is opt-in per submission --- nothing is sent without you tapping Submit. You can also disable the prompt entirely under Settings > Data > Open Food Facts Corrections; with the toggle off, the app never offers to submit, regardless of how many Open-Food-Facts-sourced rows you edit. When you do submit, the request includes the corrected nutrition values, the product barcode, the app name, the app version, and a per-install identifier (`app_uuid`) used by Open Food Facts for app-attribution analytics. Corrections are submitted under DailyRation's shared Open Food Facts contributor account, not a personal account --- you never sign in to Open Food Facts. The `app_uuid` is generated on first submission and is not linked to your Apple ID or any DailyRation identifier; uninstalling the app or resetting it generates a new one.
 
-No other identifying data is sent, and there is no Open Food Facts sign-in --- submissions are always anonymous.
+No other identifying data is sent, and no personal identity of yours is attached --- corrections are made under the shared app account described above, never under your own name.
 
 No other network requests are made by the app.
 
