@@ -6,7 +6,7 @@ title: Privacy Policy
 
 DailyRation is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
 
-**Effective April 9, 2026. Last updated June 5, 2026.**
+**Effective April 9, 2026. Last updated June 7, 2026.**
 
 ---
 
