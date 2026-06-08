@@ -8,12 +8,12 @@ If you make most of your food from real ingredients and you've spent ten minutes
   <img width="250" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
 </p>
 
-- **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you actually cook with is already there with full USDA nutrition data. No data entry before your first meal.
+- **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
 - **Scan a nutrition label.** No barcode? Photograph the nutrition facts panel and the app reads it.
 - **Search USDA and Open Food Facts.** Type a food name and search the full USDA FoodData Central database (whole, raw ingredients) or Open Food Facts (branded and packaged products USDA does not carry). Flip between the two catalogs with one tap, pick a result, review it, and save.
 - **Enter it yourself.** For anything else, add an ingredient manually with your own nutrition data.
-- **Organized like a kitchen.** Your library auto-groups into Fruits, Vegetables, Dairy & Eggs, Sweets, and more: fifteen buckets that match how you actually shop. USDA seed items and barcode-scanned products land in the right place automatically.
+- **Organized like a kitchen.** Your library auto-groups into Fruits, Vegetables, Dairy & Eggs, Sweets, and more: fifteen buckets that match how you shop. USDA seed items and barcode-scanned products land in the right place automatically.
 - **Cook a recipe once, log it forever.** Build a recipe out of ingredients, and every time you eat it, log it as one tap.
 - **See your day at a glance.** Calories, protein, carbs, fat, plus the micronutrients and limits you actually care about, all on one screen.
 - **Trends across days and weeks.** Tap any nutrient on the day view to see a 7-day chart with your target line.
@@ -141,13 +141,13 @@ DailyRation runs natively on macOS 14+. Ingredients, recipes, and meal logs are 
 
 ## Privacy
 
-There is no DailyRation server. Nothing is collected, sold, transmitted, profiled, or analyzed.
+There is no DailyRation server. Nothing is collected, sold, or transmitted.
 
 - Your data lives on your device. With iCloud sync on (default), it also lives in your private iCloud database, accessible only by you. You can turn sync off in Settings.
 - Barcode scans query Open Food Facts and then USDA directly from your device. The only data sent is the barcode number; nothing personal.
-- Sending corrections back to Open Food Facts is off by default. If you turn it on under Settings → Data, the editor will offer (per submission) to push your fixes upstream so the next person who scans the same product gets the right numbers. Even then it never sends anything without you tapping Submit.
+- Sending corrections back to Open Food Facts is off by default. If you turn it on under Settings → Data, the editor will offer (per submission) to push your fixes upstream so the next person who scans the same product gets the right numbers. The submission includes the corrected values, the barcode, and a per-install identifier Open Food Facts uses for app attribution (not your Apple ID or name). Even then it never sends anything without you tapping Submit.
 - Ingredient name search hits USDA's public API or Open Food Facts' search service (search.openfoodfacts.org), depending on which catalog you pick, directly from your device. The query is the food name; nothing personal.
-- Apple Health integration is opt-in, runs entirely on-device, and never leaves your iCloud account.
+- Apple Health integration is opt-in, runs entirely on-device, and no health data is sent to any server.
 
 **[Full Privacy Policy →](https://w15p.github.io/DailyRation/privacy)** &nbsp; (also referenced from the App Store listing)
 
