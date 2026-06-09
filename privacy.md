@@ -44,7 +44,7 @@ When you search for a food by name and choose the Open Food Facts catalog, the a
 
 #### Open Food Facts correction submissions
 
-When you fix bad data on an Open-Food-Facts-sourced ingredient, the app may offer to send your corrections back to Open Food Facts. This is opt-in per submission: nothing is sent without you tapping Submit. You can also disable the prompt entirely under Settings > Data > Open Food Facts Corrections; with the toggle off, the app never offers to submit, regardless of how many Open-Food-Facts-sourced rows you edit. When you do submit, the request includes the corrected nutrition values, the product barcode, the app name, the app version, and a per-install identifier (`app_uuid`) used by Open Food Facts for app-attribution analytics. Corrections are submitted under DailyRation's shared Open Food Facts contributor account, not a personal account; you never sign in to Open Food Facts. The `app_uuid` is generated on first submission and is not linked to your Apple ID or any DailyRation identifier; uninstalling the app or resetting it generates a new one.
+When you fix bad data on an Open-Food-Facts-sourced ingredient, the app may offer to send your corrections back to Open Food Facts. This is opt-in per submission: nothing is sent without you tapping Submit. You can also disable the prompt entirely under Settings → Data → Open Food Facts Corrections; with the toggle off, the app never offers to submit, regardless of how many Open-Food-Facts-sourced rows you edit. When you do submit, the request includes the corrected nutrition values, the product barcode, the app name, the app version, and a per-install identifier (`app_uuid`) used by Open Food Facts for app-attribution analytics. Corrections are submitted under DailyRation's shared Open Food Facts contributor account, not a personal account; you never sign in to Open Food Facts. The `app_uuid` is generated on first submission and is not linked to your Apple ID or any DailyRation identifier; uninstalling the app or resetting it generates a new one.
 
 No other identifying data is sent, and no personal identity of yours is attached: corrections are made under the shared app account described above, never under your own name.
 
@@ -57,7 +57,7 @@ DailyRation offers optional Apple Health (HealthKit) integration, controlled by 
 - **Publish nutrients to Health.** Logs each meal's nutrition (calories, protein, etc.) to Apple Health.
 - **Show active calories.** Reads your active energy burned from Apple Health to display alongside your calorie intake.
 
-Both features run entirely on-device through Apple's HealthKit framework. No health data is sent to any server. You can enable or disable either toggle at any time in the app's settings, and you can revoke Health access at any time in the Health app under Sharing > Apps and Services > DailyRation.
+Both features run entirely on-device through Apple's HealthKit framework. No health data is sent to any server. You can enable or disable either toggle at any time in the app's settings, and you can revoke Health access at any time in the Health app under Sharing → Apps and Services → DailyRation.
 
 ## Nutrition Label Scanning
 
