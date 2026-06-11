@@ -1,12 +1,13 @@
 ---
 title: Privacy Policy
+description: " "
 ---
 
 # DailyRation
 
 DailyRation is a nutrition-tracking app for iOS and macOS built by w15p. It is designed to work without accounts, servers, or subscriptions. Your data stays yours.
 
-**Effective April 9, 2026. Last updated June 7, 2026.**
+**Effective April 9, 2026. Last updated June 11, 2026.**
 
 ---
 
@@ -52,12 +53,11 @@ No other network requests are made by the app.
 
 ## Apple Health Integration
 
-DailyRation offers optional Apple Health (HealthKit) integration, controlled by two independent toggles that are both **off by default**:
+DailyRation offers optional Apple Health (HealthKit) integration, **off by default**:
 
-- **Publish nutrients to Health.** Logs each meal's nutrition (calories, protein, etc.) to Apple Health.
-- **Show active calories.** Reads your active energy burned from Apple Health to display alongside your calorie intake.
+- **Show active calories.** Reads your active energy burned from Apple Health to display alongside your calorie intake. The app reads this data only - it does not write anything to Apple Health.
 
-Both features run entirely on-device through Apple's HealthKit framework. No health data is sent to any server. You can enable or disable either toggle at any time in the app's settings, and you can revoke Health access at any time in the Health app under Sharing → Apps and Services → DailyRation.
+This runs entirely on-device through Apple's HealthKit framework. No health data is sent to any server. You can enable or disable it at any time in the app's settings, and you can revoke Health access at any time in the Health app under Sharing → Apps and Services → DailyRation.
 
 ## Nutrition Label Scanning
 
@@ -69,7 +69,7 @@ After you have logged at least 10 meals across 7 different days, the app may sho
 
 ## UserDefaults
 
-The app stores a small number of per-device preferences in UserDefaults, such as HealthKit opt-in states, iCloud sync preference, and a one-time flag noting whether the in-app review prompt has been shown. These are local device flags that never leave your device.
+The app stores a small number of per-device preferences in UserDefaults, such as the HealthKit opt-in, iCloud sync preference, and a one-time flag noting whether the in-app review prompt has been shown. These are local device flags that never leave your device.
 
 ## Third-Party SDKs
 

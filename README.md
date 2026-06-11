@@ -18,7 +18,7 @@ If you make most of your food from real ingredients and you've spent ten minutes
 - **See your day at a glance.** Calories, protein, carbs, fat, plus the micronutrients and limits you actually care about, all on one screen.
 - **Trends across days and weeks.** Tap any nutrient on the day view to see a 7-day chart with your target line.
 - **Sync across your devices.** iCloud sync is on by default — turn it off in Settings if you want device-only. No account, no signup, no password.
-- **Optional Apple Health integration.** Publish what you eat to Health, or pull in your active calories burned to compare against what you ate. Both are off by default and independently configurable.
+- **Optional Apple Health integration.** Pull in your active calories burned to compare against what you ate. Off by default; the app reads from Health and never writes to it.
 
 ---
 
@@ -113,16 +113,16 @@ Every color is tuned to read well in both light and dark mode, on iPhone, iPad, 
 
 ## Apple Health
 
-Off by default. Two independent toggles in Settings → Data → Apple Health:
+Off by default, in Settings → Data → Apple Health:
 
-**Publish nutrients to Health.** When on, every meal you save also writes a nutrition entry to Apple Health, grouped under "DailyRation" as a meal correlation. Edits and deletes propagate. To stop sharing later, open the Health app → Sharing → Apps and Services → DailyRation.
-
-**Show active calories.** When on, the calorie display reads your active energy burned from Health and renders a green active calorie ring inside the orange calorie ring, scaled to the same target.
-
-These are split because they're useful independently. You might want to publish nutrition to Health without trusting Apple's calorie burn estimate. Or you might want to see your burn against your intake without writing anything back to Health.
+**Show active calories.** When on, the calorie display reads your active energy burned from Health and renders a green active calorie ring inside the orange calorie ring, scaled to the same target. The app only reads from Health; it never writes anything back. To stop sharing later, open the Health app → Sharing → Apps and Services → DailyRation.
 
 <p align="center">
-  <img width="200" src="screenshots/apple_health.jpeg" alt="Apple Health settings">
+  <img width="230" src="screenshots/log_banner.png" alt="The Log screen with the Show active calories from Apple Health prompt">
+</p>
+
+<p align="center">
+  <img width="300" src="screenshots/apple_health.jpeg" alt="Apple Health settings - Show active calories toggle">
 </p>
 
 ---
