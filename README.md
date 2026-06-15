@@ -8,6 +8,12 @@ If you make most of your food from real ingredients and you've spent ten minutes
   <img width="250" src="screenshots/log_view.png" alt="Log tab with chart header and meals">
 </p>
 
+<p align="center">
+  <a href="https://apps.apple.com/us/app/dailyration/id6762090204">
+    <img height="52" alt="Download on the App Store" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg">
+  </a>
+</p>
+
 - **Over 350 ingredients on day one.** Eggs, olive oil, black beans, cheddar, oats — the stuff you cook with is already there with full USDA nutrition data. No data entry before your first meal.
 - **Scan a barcode.** Point your camera at a product barcode and the app looks it up instantly.
 - **Scan a nutrition label.** No barcode? Photograph the nutrition facts panel and the app reads it.
